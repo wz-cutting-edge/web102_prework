@@ -161,47 +161,47 @@ html {
 }
 
 .dark-mode {
-    background-color: #001a33; /* Deep ocean blue */
-    color: #e0f2ff; /* Light blue text */
+    background-color: #001a33;
+    color: #e0f2ff;
 }
 
 .dark-mode .header {
-    background-color: #002b4d; /* Slightly lighter deep blue */
+    background-color: #002b4d;
 }
 
 .dark-mode .stats-card {
-    background-color: #003366; /* Navy blue */
+    background-color: #003366;
     color: #e0f2ff;
 }
 
 .dark-mode .game-card {
-    background-color: #004080; /* Medium ocean blue */
+    background-color: #004080;
     color: #e0f2ff;
 }
 
 .dark-mode #challenge-seven,
 .dark-mode #challenge-seven-home {
-    background-color: #004d99; /* Brighter ocean blue */
+    background-color: #004d99;
 }
 
 .dark-mode button {
-    background-color: #005cb3; /* Bright ocean blue */
+    background-color: #005cb3;
     color: #ffffff;
 }
 
 .dark-mode #theme-button {
-    background-color: #002b4d; /* Bright ocean blue */
+    background-color: #002b4d;
     color: #ffffff;
 }
 
 .dark-mode #theme-button:hover {
-    background-color: #0099ff; /* Lighter bright blue on hover */
+    background-color: #0099ff;
 }
 
 .dark-mode .game-card:hover {
-    box-shadow: 0 0 30px #0099ff; /* Bright blue glow */
+    box-shadow: 0 0 30px #0099ff;
 }
 
 .dark-mode .stats-container :hover {
-    box-shadow: 0 0 30px #00ccff; /* Cyan-blue glow */
+    box-shadow: 0 0 30px #00ccff;
 }
