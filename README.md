@@ -35,7 +35,7 @@ GIF created with OBS + [FreeConvert](https:///www.freeconvert.com/)
 
 ## Notes
 
-While developing this website, I encountered several challenges, primarily synta-related issues such as missing parentheses and incorrect quote usage. Learning new functions under time constraints was challenging, but the experience was both enjoyable and rewarding.
+While developing this website, I encountered several challenges, primarily syntax-related issues such as missing parentheses and incorrect quote usage. Learning new functions under time constraints was challenging, but the experience was both enjoyable and rewarding.
 
 ## License
 
