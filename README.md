@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src="https://i.imgur.com/gVoT2iI.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="https://github.com/user-attachments/assets/20978a28-2023-4765-8bf2-9d439c6f4494" title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with OBS + [FreeConvert](https:///www.freeconvert.com/)
