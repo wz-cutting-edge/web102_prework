@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #e6f3ff;;
 }
 
 #tentacles {
@@ -11,12 +11,20 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: #4db8ff;
     padding: 1%;
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    justify-content: left;
 }
 
 .stats-container {
@@ -24,7 +32,7 @@ body {
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #b3e0ff;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -49,7 +57,7 @@ body {
 }
 
 .game-card {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 1%;
     margin: 1%;
     width: 300px;
@@ -72,4 +80,128 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    background-color: #4db8ff;
+    color: white;
+}
+
+.stats-container{
+    display: flex;
+    align-content: center;
+}
+
+.stats-container :hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#challenge-seven-home{
+    background-color: #b3e0ff;
+    border-radius: 7px;
+    padding: 1%;
+    top: 30px;
+    margin: 1%;
+    margin-top: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+#challenge-seven{
+    background-color: #b3e0ff;
+    border-radius: 7px;
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.narvbar {
+    display: flex;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar ul li {
+    margin: 0;
+}
+.navbar ul li a {
+    margin-left:20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #1a8cff;
+  }
+
+#theme-button {
+    display: block;
+    color: white;
+    background-color: #4db8ff;
+    text-align: center;
+    padding: 4px 6px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+#theme-button:hover {
+    background-color: #1a8cff;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.dark-mode {
+    background-color: #001a33; /* Deep ocean blue */
+    color: #e0f2ff; /* Light blue text */
+}
+
+.dark-mode .header {
+    background-color: #002b4d; /* Slightly lighter deep blue */
+}
+
+.dark-mode .stats-card {
+    background-color: #003366; /* Navy blue */
+    color: #e0f2ff;
+}
+
+.dark-mode .game-card {
+    background-color: #004080; /* Medium ocean blue */
+    color: #e0f2ff;
+}
+
+.dark-mode #challenge-seven,
+.dark-mode #challenge-seven-home {
+    background-color: #004d99; /* Brighter ocean blue */
+}
+
+.dark-mode button {
+    background-color: #005cb3; /* Bright ocean blue */
+    color: #ffffff;
+}
+
+.dark-mode #theme-button {
+    background-color: #002b4d; /* Bright ocean blue */
+    color: #ffffff;
+}
+
+.dark-mode #theme-button:hover {
+    background-color: #0099ff; /* Lighter bright blue on hover */
+}
+
+.dark-mode .game-card:hover {
+    box-shadow: 0 0 30px #0099ff; /* Bright blue glow */
+}
+
+.dark-mode .stats-container :hover {
+    box-shadow: 0 0 30px #00ccff; /* Cyan-blue glow */
 }
